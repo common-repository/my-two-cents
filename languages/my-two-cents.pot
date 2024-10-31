@@ -1,0 +1,227 @@
+# Copyright (C) 2014 My Two Cents
+# This file is distributed under the same license as the My Two Cents package.
+msgid ""
+msgstr ""
+"Project-Id-Version: My Two Cents 0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/my-two-cents\n"
+"POT-Creation-Date: 2014-09-25 00:49:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: my-two-cents.php:66
+msgid "Configure BitCoin addresses"
+msgstr ""
+
+#: my-two-cents.php:66
+msgid ""
+"Almost done! Tell My Two Cents about your BitCoin address to start receiving "
+"BitCoin from commenters."
+msgstr ""
+
+#: my-two-cents.php:76
+msgid ""
+"My Two Cents is provided as free software, but sadly grocery stores do not "
+"offer free food. If you like this plugin, please consider %1$s to its %2$s. "
+"&hearts; Thank you!"
+msgstr ""
+
+#: my-two-cents.php:77
+msgid "making a donation"
+msgstr ""
+
+#: my-two-cents.php:78
+msgid "houseless, jobless, nomadic developer"
+msgstr ""
+
+#: my-two-cents.php:96
+msgid "Debug output:"
+msgstr ""
+
+#: my-two-cents.php:115
+msgid "Unknown BTC destination address: %s"
+msgstr ""
+
+#: my-two-cents.php:123
+msgid "Invalid BitCoin address: %s"
+msgstr ""
+
+#: my-two-cents.php:142
+msgid "Unknown comment ID: %s"
+msgstr ""
+
+#: my-two-cents.php:197
+msgid "BitCoin address"
+msgstr ""
+
+#: my-two-cents.php:200
+msgid "your BitCoin address"
+msgstr ""
+
+#: my-two-cents.php:202
+msgid ""
+"To skip the moderation queue, enter the BitCoin address from which you will "
+"send BTC"
+msgstr ""
+
+#: my-two-cents.php:229
+msgid ""
+"To have your comment automatically approved, send BitCoin in the amount of "
+"your choosing to %s"
+msgstr ""
+
+#: my-two-cents.php:236
+msgid "QR code to send BitCoins"
+msgstr ""
+
+#: my-two-cents.php:266
+msgid "Error generating new receive address."
+msgstr ""
+
+#: my-two-cents.php:323
+msgid ""
+"%s: No receive addresses, skipping scheduled invocation to process comments."
+msgstr ""
+
+#. #-#-#-#-#  my-two-cents.pot (My Two Cents 0.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: my-two-cents.php:324 my-two-cents.php:335 my-two-cents.php:343
+#: my-two-cents.php:353 my-two-cents.php:474
+msgid "My Two Cents"
+msgstr ""
+
+#: my-two-cents.php:334
+msgid "%s: Empty receive address."
+msgstr ""
+
+#: my-two-cents.php:342
+msgid "%s: Failed to retrieve transaction data from %s for address %s"
+msgstr ""
+
+#: my-two-cents.php:352
+msgid "%s: Error from %s API endpoint when querying for address %s: %s"
+msgstr ""
+
+#: my-two-cents.php:436
+msgid "Receive addresses cannot be empty."
+msgstr ""
+
+#: my-two-cents.php:446
+msgid "Rejecting invalid BitCoin receive address: %s"
+msgstr ""
+
+#: my-two-cents.php:452
+msgid "You must supply at least one valid BitCoin address."
+msgstr ""
+
+#: my-two-cents.php:473 my-two-cents.php:491
+msgid "My Two Cents Settings"
+msgstr ""
+
+#: my-two-cents.php:487
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: my-two-cents.php:497
+msgid "BitCoin configuration"
+msgstr ""
+
+#: my-two-cents.php:498
+msgid "Your BitCoin wallet configuration"
+msgstr ""
+
+#: my-two-cents.php:502
+msgid "Your BitCoin addresses:"
+msgstr ""
+
+#: my-two-cents.php:509
+msgid "one address per line"
+msgstr ""
+
+#: my-two-cents.php:514
+msgid ""
+"Enter your BitCoin address or addresses here. If you have more than one "
+"address, enter each one on its own line."
+msgstr ""
+
+#: my-two-cents.php:520
+msgid "QR code size:"
+msgstr ""
+
+#: my-two-cents.php:532
+msgid ""
+"Size in pixels of the QR code image used in unapproved comments. This must "
+"be a square image, so this number will be used for both the width and the "
+"height of your QR code."
+msgstr ""
+
+#: my-two-cents.php:540
+msgid "Minimum confirmations:"
+msgstr ""
+
+#: my-two-cents.php:552
+msgid ""
+"Number of network %1$sconfirmations%2$s required to consider a transaction "
+"valid. Increasing this number improves security against double-spending but "
+"takes more time."
+msgstr ""
+
+#: my-two-cents.php:553
+msgid "Learn more about BitCoin confirmations."
+msgstr ""
+
+#: my-two-cents.php:561
+msgid "Enable transaction polling method?"
+msgstr ""
+
+#: my-two-cents.php:568
+msgid ""
+"When enabled, this will schedule a once-per-hour poll of your BitCoin "
+"receive addresses to look for transactions that your commenters have pledged "
+"they will make when they posted their comment. It is arguably less secure "
+"than the default method because you will occasionally re-use one of your "
+"receive addresses multiple times but, unlike the default method that uses "
+"automatically generated forwarding addresses, there is no middle-man. "
+"Enabling this option also adds a field to your comment form asking your "
+"commenters for their BTC sending address. Even if you enable this option, "
+"commenters who do not supply a sending address with their comment will still "
+"be prompted to use the default automatically generated address method as a "
+"fallback."
+msgstr ""
+
+#: my-two-cents.php:576
+msgid "Enable detailed debugging information?"
+msgstr ""
+
+#: my-two-cents.php:583
+msgid ""
+"Turn this on only if you are experiencing problems using this plugin, or if "
+"you were told to do so by someone helping you fix a problem (or if you "
+"really know what you are doing). When enabled, extremely detailed technical "
+"information is displayed as a WordPress admin notice when you take certain "
+"actions. If you have also enabled WordPress's built-in debugging (%1$s) and "
+"debug log (%2$s) feature, additional information will be sent to a log file "
+"(%3$s). This file may contain sensitive information, so turn this off and "
+"erase the debug log file when you have resolved the issue."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://maymay.net/blog/projects/my-two-cents/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Receive BitCoin from your commenters. Auto-approve comments that include a "
+"BitCoin donation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Meitar Moscovitz <meitar@maymay.net>"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://maymay.net/"
+msgstr ""
